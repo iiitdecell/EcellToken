@@ -2,14 +2,14 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/anshu/Documents/GitHub/EcellToken/contracts/EcellToken.sol": {
-      "lastModificationDate": 1646644582800,
-      "contentHash": "6fce786faeb284359d59c571f378a5fd",
+      "lastModificationDate": 1646673224054,
+      "contentHash": "4219cb6099880c98bc366609fb3c7857",
       "sourceName": "contracts/EcellToken.sol",
       "solcConfig": {
         "version": "0.8.7",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -47,7 +47,7 @@
         "version": "0.8.7",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -86,7 +86,7 @@
         "version": "0.8.7",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -123,7 +123,7 @@
         "version": "0.8.7",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -158,7 +158,7 @@
         "version": "0.8.7",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -195,7 +195,7 @@
         "version": "0.8.7",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
