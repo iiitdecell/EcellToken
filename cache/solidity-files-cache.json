@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/anshu/Documents/GitHub/EcellToken/contracts/EcellToken.sol": {
-      "lastModificationDate": 1646673224054,
-      "contentHash": "4219cb6099880c98bc366609fb3c7857",
+      "lastModificationDate": 1646842913380,
+      "contentHash": "0e61b2f73dbedb6478d869142a84aa7b",
       "sourceName": "contracts/EcellToken.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -220,6 +220,41 @@
       ],
       "artifacts": [
         "Context"
+      ]
+    },
+    "/Users/anshu/Documents/GitHub/EcellToken/contracts/EcellShop.sol": {
+      "lastModificationDate": 1646831922882,
+      "contentHash": "4c4655426ca62a82ed1fd7ebfe9c46eb",
+      "sourceName": "contracts/EcellShop.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "EcellShop"
       ]
     }
   }

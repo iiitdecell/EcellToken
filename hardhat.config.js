@@ -11,8 +11,9 @@
 
 
 require("@nomiclabs/hardhat-ethers");
+require("@nomiclabs/hardhat-etherscan");
 require("dotenv").config();
-const {PRIVATE_KEY} = process.env;
+const {POLYGON_MUMBAI_RPC_PROVIDER, PRIVATE_KEY, POLYGON_API_KEY} = process.env;
 module.exports = {
   defaultNetwork: "matic",
   networks: {
@@ -22,6 +23,9 @@ module.exports = {
       url: "https://rpc-mumbai.maticvigil.com",
       accounts: [PRIVATE_KEY]
     }
+  },
+  etherscan: {
+    apiKey: POLYGON_API_KEY,
   },
   solidity: {
     version: "0.8.7",
