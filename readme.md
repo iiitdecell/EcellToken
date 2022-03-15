@@ -8,7 +8,7 @@ npm run test
 npx hardhat run scripts/deploy.js --network matic 
 
 ## verification command
-npx hardhat verify 0xCABB812637fd0d4b7512A552b8f061445Ae180D5 --network matic
+npx hardhat verify 0xC236C4537692Ab8b9E4EfED2C5e8b0E1192D3131 --network matic
 
 Contract address - Polygon mumbai testnet
-0xCABB812637fd0d4b7512A552b8f061445Ae180D5
+0xC236C4537692Ab8b9E4EfED2C5e8b0E1192D3131

@@ -17,15 +17,9 @@ contract EcellToken is ERC20, Ownable{
         // return tokenSupply();
     }
 
-    // function transferToken(address _to, uint _value) public returns (bool success){
-    //     require(_to != address(0));
-    //     require(_value <= balanceOf(msg.sender));
-    //     require(msg.sender != _to);
-    //     _transfer(msg.sender, _to, _value);
-    //     return true;
-    // }
-
-    // function getSupply() public view returns(uint256){
-    //     return _tokenSupply;
-    // }
+    function burnTokens(address account, uint256 amount) public onlyOwner{
+        _burn(account, amount);
+        // tokenSupply-=amount;
+        // return tokenSupply();
+    }
 }
