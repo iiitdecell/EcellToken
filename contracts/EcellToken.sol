@@ -6,8 +6,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract EcellToken is ERC20, Ownable{
     // uint256 private tokenSupply = 0;
-    constructor() ERC20("EcellToken", "ECELL"){
-        _mint(msg.sender, 10000*10**uint256(decimals()));
+    constructor() ERC20("EcellToken", "ENTRY"){
+        _mint(msg.sender, 15000*10**uint256(decimals()));
         // tokenSupply+=10000*10**uint256(decimals);
         // return tokenSupply();
     }

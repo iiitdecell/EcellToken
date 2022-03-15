@@ -13,14 +13,14 @@
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-etherscan");
 require("dotenv").config();
-const {POLYGON_MUMBAI_RPC_PROVIDER, PRIVATE_KEY, POLYGON_API_KEY} = process.env;
+const {POLYGON_MUMBAI_RPC_PROVIDER, POLYGON_MAINNET_PROVIDER, PRIVATE_KEY, POLYGON_API_KEY} = process.env;
 module.exports = {
   defaultNetwork: "matic",
   networks: {
     hardhat: {
     },
     matic: {
-      url: "https://rpc-mumbai.maticvigil.com",
+      url: POLYGON_MAINNET_PROVIDER,
       accounts: [PRIVATE_KEY]
     }
   },
