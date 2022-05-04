@@ -10,5 +10,5 @@ npx hardhat run scripts/deploy.js --network matic
 ## verification command
 npx hardhat verify 0xC236C4537692Ab8b9E4EfED2C5e8b0E1192D3131 --network matic
 
-Contract address - Polygon mumbai testnet
+Contract address - Polygon Mainnet
 0xC236C4537692Ab8b9E4EfED2C5e8b0E1192D3131
