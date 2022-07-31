@@ -20,7 +20,7 @@ module.exports = {
     hardhat: {
     },
     matic: {
-      url: POLYGON_MAINNET_PROVIDER,
+      url: POLYGON_MUMBAI_RPC_PROVIDER,
       accounts: [PRIVATE_KEY]
     }
   },
